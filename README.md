@@ -1,3 +1,7 @@
+Python Version :-  3.12.4
+Running Code:- python app.py
+
+
 Yes, if you set the environment variable `OPENAI_API_KEY` using `docker run -e OPENAI_API_KEY=your_api_key ...`, your code will be able to access this key.
 
 Here's how it works:

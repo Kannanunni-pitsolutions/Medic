@@ -1,8 +1,9 @@
-Python Version :-  3.12.4
+**Python Version** :-  3.12.4
 
 
-Running Code:- python app.py
+**Running Code**:- python app.py
 
+**QUESTION 1: How to pass the environment variable**
 
 Yes, if you set the environment variable `OPENAI_API_KEY` using `docker run -e OPENAI_API_KEY=your_api_key ...`, your code will be able to access this key.
 
@@ -65,7 +66,7 @@ By following these steps, you can ensure that your Docker container has access t
 
 
 
-QUESTION 2: if we are doing this so there is no need to create the .env file in the directory
+**QUESTION 2: if we are doing this so there is no need to create the .env file in the directory**
 
 That's correct! If you are using Docker and passing environment variables directly with the docker run -e command, there is no need to create a .env file in your directory for those variables.
 
@@ -129,7 +130,7 @@ In conclusion, for deployment scenarios using Docker, you don’t need a .env fi
 
 
 
-Question3: so what will be do if we want to change the api key later
+**Question3: so what will be do if we want to change the api key later**
 
 
 If you need to change the API key or other environment variables later, you can do so without needing to modify or rebuild your Docker image. Here's how you can manage changes to environment variables in different scenarios:
